@@ -504,185 +504,185 @@ const questions = [
 
     },
 
-    // {
+    {
 
-    //     question: "Which of the following are commonly used as rectifiers in electrical circuits? 1. Anodes. 2. Cathodes. 3. Diodes.",
+        question: "The maximum voltage measured on the AC sine wave is known as:",
 
-    //     answers: [
+        answers: [
             
-    //         { text: "3, 1.", correct: false },
+            { text: "Peak Voltage", correct: true },
 
-    //         { text: "3, 2.", correct: false },
+            { text: "Phase Voltage", correct: false },
 
-    //         { text: "3.", correct: true },
+            { text: "Effective Voltage", correct: false },
 
-    //         // { text: "Elephant", correct: false },
+            // { text: "Elephant", correct: false },
 
-    //     ]
+        ]
 
-    // },
+    },
 
-    // {
+    {
 
-    //     question: "Which of the following are commonly used as rectifiers in electrical circuits? 1. Anodes. 2. Cathodes. 3. Diodes.",
+        question: "RMS value is also known as the_____",
 
-    //     answers: [
+        answers: [
             
-    //         { text: "3, 1.", correct: false },
+            { text: "effective value", correct: true },
 
-    //         { text: "3, 2.", correct: false },
+            { text: "peak value", correct: false },
 
-    //         { text: "3.", correct: true },
+            { text: "instantaneous value", correct: false },
 
-    //         // { text: "Elephant", correct: false },
+            // { text: "Elephant", correct: false },
 
-    //     ]
+        ]
 
-    // },
+    },
 
-    // {
+    {
 
-    //     question: "Which of the following are commonly used as rectifiers in electrical circuits? 1. Anodes. 2. Cathodes. 3. Diodes.",
+        question: "In Alternating Current circuits, what is the name of the term that describes the combined resistive forces?",
 
-    //     answers: [
+        answers: [
             
-    //         { text: "3, 1.", correct: false },
+            { text: "Impedance", correct: true },
 
-    //         { text: "3, 2.", correct: false },
+            { text: "Resistance", correct: false },
 
-    //         { text: "3.", correct: true },
+            { text: "Reactance", correct: false },
 
-    //         // { text: "Elephant", correct: false },
+            // { text: "Elephant", correct: false },
 
-    //     ]
+        ]
 
-    // },
+    },
 
-    // {
+    {
 
-    //     question: "Which of the following are commonly used as rectifiers in electrical circuits? 1. Anodes. 2. Cathodes. 3. Diodes.",
+        question: "When direct current to a magnetic field drops, the field will?",
 
-    //     answers: [
+        answers: [
             
-    //         { text: "3, 1.", correct: false },
+            { text: "Collapse", correct: true },
 
-    //         { text: "3, 2.", correct: false },
+            { text: "Reverse polarity", correct: false },
 
-    //         { text: "3.", correct: true },
+            { text: "Remain Active", correct: false },
 
-    //         // { text: "Elephant", correct: false },
+            // { text: "Elephant", correct: false },
 
-    //     ]
+        ]
 
-    // },
+    },
 
-    // {
+    {
 
-    //     question: "Which of the following are commonly used as rectifiers in electrical circuits? 1. Anodes. 2. Cathodes. 3. Diodes.",
+        question: "Transformers work on the principal of:",
 
-    //     answers: [
+        answers: [
             
-    //         { text: "3, 1.", correct: false },
+            { text: "Mutual induction", correct: true },
 
-    //         { text: "3, 2.", correct: false },
+            { text: "Magnetic attraction", correct: false },
 
-    //         { text: "3.", correct: true },
+            { text: "Static electricity", correct: false },
 
-    //         // { text: "Elephant", correct: false },
+            // { text: "Elephant", correct: false },
 
-    //     ]
+        ]
 
-    // },
+    },
 
-    // {
+    {
 
-    //     question: "Which of the following are commonly used as rectifiers in electrical circuits? 1. Anodes. 2. Cathodes. 3. Diodes.",
+        question: "What is the total capacitance of a certain circuit containing three capacitors, with capacitance's of .35 microfarad, .07 microfarad, and .16 microfarad, respectively? (Note: C(T) = C(1) + C(2) + C(3))",
 
-    //     answers: [
+        answers: [
             
-    //         { text: "3, 1.", correct: false },
+            { text: "58 uF.", correct: true },
 
-    //         { text: "3, 2.", correct: false },
+            { text: ".04 pF.", correct: false },
 
-    //         { text: "3.", correct: true },
+            { text: ".04 uF.", correct: false },
 
-    //         // { text: "Elephant", correct: false },
+            // { text: "Elephant", correct: false },
 
-    //     ]
+        ]
 
-    // },
+    },
 
-    // {
+    {
 
-    //     question: "Which of the following are commonly used as rectifiers in electrical circuits? 1. Anodes. 2. Cathodes. 3. Diodes.",
+        question: "When calculating the true power of a reactive (out-of-phase) AC circuit, the power factor is:",
 
-    //     answers: [
+        answers: [
             
-    //         { text: "3, 1.", correct: false },
+            { text: "the product of volts time the amps", correct: false },
 
-    //         { text: "3, 2.", correct: false },
+            { text: "the impedance divided by the apparent power", correct: false },
 
-    //         { text: "3.", correct: true },
+            { text: "the ratio of the apparent power to the true power", correct: true },
 
-    //         // { text: "Elephant", correct: false },
+            // { text: "Elephant", correct: false },
 
-    //     ]
+        ]
 
-    // },
+    },
 
-    // {
+    {
 
-    //     question: "Which of the following are commonly used as rectifiers in electrical circuits? 1. Anodes. 2. Cathodes. 3. Diodes.",
+        question: "Increasing ____________ results in a decrease of the capacitive reactance present in an AC circuit?",
 
-    //     answers: [
+        answers: [
             
-    //         { text: "3, 1.", correct: false },
+            { text: "frequency", correct: true },
 
-    //         { text: "3, 2.", correct: false },
+            { text: "voltage", correct: false },
 
-    //         { text: "3.", correct: true },
+            { text: "power", correct: false },
 
-    //         // { text: "Elephant", correct: false },
+            // { text: "Elephant", correct: false },
 
-    //     ]
+        ]
 
-    // },
+    },
 
-    // {
+    {
 
-    //     question: "Which of the following are commonly used as rectifiers in electrical circuits? 1. Anodes. 2. Cathodes. 3. Diodes.",
+        question: "The effective value of AC is ________ times that of the maximum value.",
 
-    //     answers: [
+        answers: [
             
-    //         { text: "3, 1.", correct: false },
+            { text: "1.41", correct: false },
 
-    //         { text: "3, 2.", correct: false },
+            { text: ".707", correct: true },
 
-    //         { text: "3.", correct: true },
+            { text: ".638", correct: false },
 
-    //         // { text: "Elephant", correct: false },
+            // { text: "Elephant", correct: false },
 
-    //     ]
+        ]
 
-    // },
+    },
 
-    // {
+    {
 
-    //     question: "Which of the following are commonly used as rectifiers in electrical circuits? 1. Anodes. 2. Cathodes. 3. Diodes.",
+        question: "Referring to AC values, when the voltage and current are “in-phase” the circuit is described:",
 
-    //     answers: [
+        answers: [
             
-    //         { text: "3, 1.", correct: false },
+            { text: "as purely inducative", correct: false },
 
-    //         { text: "3, 2.", correct: false },
+            { text: "as purely resistive", correct: true },
 
-    //         { text: "3.", correct: true },
+            { text: "as purely capacitive", correct: false },
 
-    //         // { text: "Elephant", correct: false },
+            // { text: "Elephant", correct: false },
 
-    //     ]
+        ]
 
-    // },
+    },
 
     // {
 
@@ -992,7 +992,7 @@ function handleNextButton() {
 
 nextButton.addEventListener("click", () => {
 
-    if (currentQuestionIndex < questions.length) {
+    if (currentQuestionIndex < 10) {
 
         handleNextButton();
 
