@@ -684,149 +684,314 @@ const questions = [
 
     },
 
-    // {
+    {
 
-    //     question: "Which of the following are commonly used as rectifiers in electrical circuits? 1. Anodes. 2. Cathodes. 3. Diodes.",
+        question: "The value at any point on a currents sine wave, is referred to as its_________",
 
-    //     answers: [
+        answers: [
             
-    //         { text: "3, 1.", correct: false },
+            { text: "true value", correct: false },
 
-    //         { text: "3, 2.", correct: false },
+            { text: "instantaneous value", correct: true },
 
-    //         { text: "3.", correct: true },
+            { text: "effective value", correct: false },
 
-    //         // { text: "Elephant", correct: false },
+            // { text: "Elephant", correct: false },
 
-    //     ]
+        ]
 
-    // },
+    },
 
-    // {
+    {
 
-    //     question: "Which of the following are commonly used as rectifiers in electrical circuits? 1. Anodes. 2. Cathodes. 3. Diodes.",
+        question: "The basis for transformer operation in the use of alternating current is mutual",
 
-    //     answers: [
+        answers: [
             
-    //         { text: "3, 1.", correct: false },
+            { text: "inductance.", correct: true },
 
-    //         { text: "3, 2.", correct: false },
+            { text: "capacitance.", correct: false },
 
-    //         { text: "3.", correct: true },
+            { text: "reactance.", correct: false },
 
-    //         // { text: "Elephant", correct: false },
+            // { text: "Elephant", correct: false },
 
-    //     ]
+        ]
 
-    // },
+    },
 
-    // {
+    {
 
-    //     question: "Which of the following are commonly used as rectifiers in electrical circuits? 1. Anodes. 2. Cathodes. 3. Diodes.",
+        question: "If we ignore resistance, the back pressure caused by alternating current flow in a coil is called:",
 
-    //     answers: [
+        answers: [
             
-    //         { text: "3, 1.", correct: false },
+            { text: "impedance.", correct: false },
 
-    //         { text: "3, 2.", correct: false },
+            { text: "reluctance.", correct: false },
 
-    //         { text: "3.", correct: true },
+            { text: "inductive reactance.", correct: true },
 
-    //         // { text: "Elephant", correct: false },
+            // { text: "Elephant", correct: false },
 
-    //     ]
+        ]
 
-    // },
+    },
 
-    // {
+    {
 
-    //     question: "Which of the following are commonly used as rectifiers in electrical circuits? 1. Anodes. 2. Cathodes. 3. Diodes.",
+        question: "What is the horsepower using a 48 volt hoist moving an object weighing 15,000 pounds a distance of 75 feet in 1 minute.",
 
-    //     answers: [
+        answers: [
             
-    //         { text: "3, 1.", correct: false },
+            { text: "34.1 HP", correct: true },
 
-    //         { text: "3, 2.", correct: false },
+            { text: "60.6 HP", correct: false },
 
-    //         { text: "3.", correct: true },
+            { text: "104.0 HP", correct: false },
 
-    //         // { text: "Elephant", correct: false },
+            // { text: "Elephant", correct: false },
 
-    //     ]
+        ]
 
-    // },
+    },
 
-    // {
+    {
 
-    //     question: "Which of the following are commonly used as rectifiers in electrical circuits? 1. Anodes. 2. Cathodes. 3. Diodes.",
+        question: "The loss in electrical pressure or emf caused by forcing electrons through a resistor is known as_________",
 
-    //     answers: [
+        answers: [
             
-    //         { text: "3, 1.", correct: false },
+            { text: "potential difference", correct: false },
 
-    //         { text: "3, 2.", correct: false },
+            { text: "voltage drop", correct: true },
 
-    //         { text: "3.", correct: true },
+            { text: "power shortage", correct: false },
 
-    //         // { text: "Elephant", correct: false },
+            // { text: "Elephant", correct: false },
 
-    //     ]
+        ]
 
-    // },
+    },
 
-    // {
+    {
 
-    //     question: "Which of the following are commonly used as rectifiers in electrical circuits? 1. Anodes. 2. Cathodes. 3. Diodes.",
+        question: "According to the AWG standard, which gauge wire has the least current carrying capacity?",
 
-    //     answers: [
+        answers: [
             
-    //         { text: "3, 1.", correct: false },
+            { text: "12", correct: false },
 
-    //         { text: "3, 2.", correct: false },
+            { text: "20", correct: false },
 
-    //         { text: "3.", correct: true },
+            { text: "22", correct: true },
 
-    //         // { text: "Elephant", correct: false },
+            // { text: "Elephant", correct: false },
 
-    //     ]
+        ]
 
-    // },
+    },
 
-    // {
+    {
 
-    //     question: "Which of the following are commonly used as rectifiers in electrical circuits? 1. Anodes. 2. Cathodes. 3. Diodes.",
+        question: "If you build a series circuit powered by a 28 volt battery, and you have three resistors of 30 ohms, 50 ohms, and 22 ohms in the circuit, how much current will be flowing through the 30 ohm resistor?",
 
-    //     answers: [
+        answers: [
             
-    //         { text: "3, 1.", correct: false },
+            { text: "0.275 Ampere", correct: true },
 
-    //         { text: "3, 2.", correct: false },
+            { text: "9.300 Ampere", correct: false },
 
-    //         { text: "3.", correct: true },
+            { text: "0.930 Ampere", correct: false },
 
-    //         // { text: "Elephant", correct: false },
+            // { text: "Elephant", correct: false },
 
-    //     ]
+        ]
 
-    // },
+    },
 
-    // {
+    {
 
-    //     question: "Which of the following are commonly used as rectifiers in electrical circuits? 1. Anodes. 2. Cathodes. 3. Diodes.",
+        question: "Which is NOT a factor that affects a capacitor’s capacitance?",
 
-    //     answers: [
+        answers: [
             
-    //         { text: "3, 1.", correct: false },
+            { text: "plate polarity", correct: true },
 
-    //         { text: "3, 2.", correct: false },
+            { text: "plate area", correct: false },
 
-    //         { text: "3.", correct: true },
+            { text: "plate spacing", correct: false },
 
-    //         // { text: "Elephant", correct: false },
+            // { text: "Elephant", correct: false },
 
-    //     ]
+        ]
 
-    // },
+    },
+
+    {
+
+        question: "All power transformers are subject to slight power losses because a certain amount of magnetic force leaks out of the magnetic circuit. What is this power loss called?",
+
+        answers: [
+            
+            { text: "leakage flux.", correct: true },
+
+            { text: "eddy current loss.", correct: false },
+
+            { text: "copper loss.", correct: false },
+
+            // { text: "Elephant", correct: false },
+
+        ]
+
+    },
+
+    {
+
+        question: "Two by-products of electron flow through a conductor are?",
+
+        answers: [
+            
+            { text: "Heat and a Magnetic field..", correct: true },
+
+            { text: "Heat and a AC Field.", correct: false },
+
+            { text: "Fluctuating DC and a Magnetic field.", correct: false },
+
+            // { text: "Elephant", correct: false },
+
+        ]
+
+    },
+
+    {
+
+        question: "Considering magnetic lines of force, what substance will magnetic lines of force pass the most readily?",
+
+        answers: [
+            
+            { text: "Copper.", correct: false },
+
+            { text: "lron.", correct: true },
+
+            { text: "Aluminum.", correct: false },
+
+            // { text: "Elephant", correct: false },
+
+        ]
+
+    },
+
+    {
+
+        question: "A ______ falls in between a conductor and an insulator, in its ability to carry a current.",
+
+        answers: [
+            
+            { text: "Diode", correct: false },
+
+            { text: "Semiconductor", correct: true },
+
+            { text: "Wire", correct: false },
+
+            // { text: "Elephant", correct: false },
+
+        ]
+
+    },
+
+    {
+
+        question: "If resistance were to double with the same voltage applied the current would",
+
+        answers: [
+            
+            { text: "Double.", correct: false },
+
+            { text: "Remain the same.", correct: false },
+
+            { text: "Reduce by half.", correct: true },
+
+            // { text: "Elephant", correct: false },
+
+        ]
+
+    },
+
+    {
+
+        question: "When using Solid state devices, we use a term called forward biasing. What does that term mean?",
+
+        answers: [
+            
+            { text: "to conduct via zener breakdown.", correct: false },
+
+            { text: "to conduct.", correct: true },
+
+            { text: "to turn off.", correct: false },
+
+            // { text: "Elephant", correct: false },
+
+        ]
+
+    },
+
+    {
+
+        question: "Which of the following values of current is smallest?",
+
+        answers: [
+            
+            { text: "the micro-ampere", correct: false },
+
+            { text: "the pico-ampere", correct: true },
+
+            { text: "the milli-ampere", correct: false },
+
+            // { text: "Elephant", correct: false },
+
+        ]
+
+    },
+
+    {
+
+        question: "Which of the following logic gates will provide an active high out only when all inputs are different?",
+
+        answers: [
+            
+            { text: "XNOR.", correct: false },
+
+            { text: "NAND.", correct: false },
+
+            { text: "XOR.", correct: true },
+
+            // { text: "Elephant", correct: false },
+
+        ]
+
+    },
+
+    {
+
+        question: "Of the three choices below, which one is the same as .001 ampere?",
+
+        answers: [
+            
+            { text: "Microampere.", correct: false },
+
+            { text: "Kiloampere.", correct: false },
+
+            { text: "Milliampere.", correct: true },
+
+            // { text: "Elephant", correct: false },
+
+        ]
+
+    },
+
+
+//=============================================================================================================================================
 
 ];
 
